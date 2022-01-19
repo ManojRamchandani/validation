@@ -1,6 +1,4 @@
 #! /bin/bash
 # This script changes the current directory to the HOME directory
-echo "Your current directory is: $(pwd)"
-#echo 'Changing your directory to the HOME directory'
 cd ~
 
