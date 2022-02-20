@@ -1,3 +1,3 @@
 #! /bin/bash
 # Printing all shall variables that start with the work TERM
-printenv | grep TERM* | sort
+printenv | grep '^TERM' | sort
