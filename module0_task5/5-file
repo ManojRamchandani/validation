@@ -3,4 +3,4 @@
 filename=\\\*\\\\\'\"DevOps\"\\\'\\\\\*\$\\\?\\\*\\\*\\\*\\\*\\\*\:\)
 touch $filename
 #Inserting text with newline into filename
-echo Hello Devops > $filename
+echo Hello DevOps > $filename
