@@ -1,0 +1,7 @@
+#! /bin/bash
+# Printing DevOps 10 times using while loop
+count=1
+while [[ "$count" -le 10 ]]; do
+    echo DevOps
+    count=$((count+1))
+done
