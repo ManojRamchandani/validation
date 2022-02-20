@@ -1,0 +1,6 @@
+#! /bin/bash
+# Creating a special escape sequence file as needed by assignment
+filename=\\\*\\\\\'\"DevOps\"\\\'\\\\\*\$\\\?\\\*\\\*\\\*\\\*\\\*\:\)
+touch $filename
+#Inserting text with newline into filename
+echo Hello Devops > $filename
