@@ -1,0 +1,6 @@
+#! /bin/bash
+# This script prints the listing of the current directory in the long formal 
+ls -al ./[[:upper:]]*
+# Moving all files that begin with a capital letter to /tmp/u
+mv ./[[:upper:]]* /tmp/u
+
