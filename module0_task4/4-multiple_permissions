@@ -1,0 +1,4 @@
+#! /bin/bash
+# This script creates a file called Hello and gives it rwx perm for owner, rx for group & r for users
+touch hello
+chmod 754 hello 
