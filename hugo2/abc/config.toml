@@ -1,0 +1,8 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'Awesome Inc.'
+[module]
+[[module.import]]
+    path = 'github.com/theNewDynamic/gohugo-theme-ananke'
+    # pointing to the ananke theme
+theme = "ananke"
