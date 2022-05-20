@@ -4,4 +4,4 @@ ls-output.txt
 module0_task4/hello
 "module0_task5/\\*\\\\'\"DevOps\"\\'\\\\*$\\?\\*\\*\\*\\*\\*:)"
 module1_task0/.hugo_build.lock
-module1_task0/task0_module1/dist/*
+module1_task0/dist
