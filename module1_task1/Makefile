@@ -1,4 +1,4 @@
-.PHONY: Build Clean Post setup_new_site clean_site
+.PHONY: Build Clean Post setup_new_site setup_dummy_dirs clean_site
 
 setup_new_site: 
 	hugo new site --force ./
@@ -9,6 +9,33 @@ setup_new_site:
 	hugo new posts/welcome.md 
 	echo title: \"Welcome to Awesome Inc.\" >> ./content/posts/welcome.md
 	#echo draft: false >> ./content/posts/welcome.md
+
+setup_dummy_dirs: setup_new_site
+	touch ./archetypes/foo.txt
+	echo "Dummy text" >> ./archetypes/foo.txt
+
+	touch ./content/foo.txt
+	echo "Dummy text" >> ./content/foo.txt
+	
+	touch ./data/foo.txt
+	echo "Dummy text" >> ./data/foo.txt
+	
+	touch ./layouts/foo.txt
+	echo "Dummy text" >> ./layouts/foo.txt
+	
+	touch ./public/foo.txt
+	echo "Dummy text" >> ./public/foo.txt
+	
+	touch ./static/foo.txt
+	echo "Dummy text" >> ./static/foo.txt
+	
+	touch ./themes/foo.txt
+	echo "Dummy text" >> ./themes/foo.txt
+
+	touch ./resources/foo.txt
+	echo "Dummy text" >> ./resources/foo.txt
+
+
 
 
 Build:
